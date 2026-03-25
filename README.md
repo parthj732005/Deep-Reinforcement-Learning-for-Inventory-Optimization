@@ -12,6 +12,14 @@ The objective is to learn an optimal ordering policy that maximizes long-term pr
 
 ---
 
+## 📁 File Structure
+
+```
+Deep-Reinforcement-Learning-for-Inventory-Optimization/
+├── README.md                    # Project documentation and overview
+├── proposal.pdf                 # Project proposal document
+└── rlprojectnew (2).ipynb      # Main Jupyter notebook with implementation and results
+---
 ## 🚀 Features
 
 * Deep Q-Network (DQN)
@@ -99,11 +107,4 @@ The learned policies are evaluated using:
 
 ---
 
-## 📁 File Structure
-
-```
-Deep-Reinforcement-Learning-for-Inventory-Optimization/
-├── README.md                    # Project documentation and overview
-├── proposal.pdf                 # Project proposal document
-└── rlprojectnew (2).ipynb      # Main Jupyter notebook with implementation and results
 ```
