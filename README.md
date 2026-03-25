@@ -1,6 +1,6 @@
 # 📦 Deep Reinforcement Learning for Inventory Optimization
 
-This project presents a comprehensive study of Reinforcement Learning (RL) methods applied to a realistic **inventory management problem**.
+This project presents a comprehensive study of Reinforcement Learning (RL) methods applied to a realistic inventory management problem.
 
 The objective is to learn an optimal ordering policy that maximizes long-term profit while accounting for:
 
@@ -26,7 +26,7 @@ The objective is to learn an optimal ordering policy that maximizes long-term pr
 
 ## 🧠 Problem Overview
 
-The problem is modeled as a **Markov Decision Process (MDP)** where the agent represents a store manager making daily inventory decisions.
+The problem is modeled as a Markov Decision Process (MDP), where the agent represents a store manager making daily inventory decisions.
 
 ### Key Challenges:
 
@@ -41,7 +41,7 @@ The problem is modeled as a **Markov Decision Process (MDP)** where the agent re
 
 ### 1. 📊 Deep Q-Network (DQN)
 
-* Learns state-action value function ( Q(s, a) )
+* Learns the state-action value function (Q(s, a))
 * Uses experience replay and target networks for stability
 
 ### 2. ⚡ Double DQN
@@ -52,8 +52,8 @@ The problem is modeled as a **Markov Decision Process (MDP)** where the agent re
 
 ### 3. 🎯 Actor-Critic
 
-* Actor learns a stochastic policy ( \pi(a|s) )
-* Critic estimates value function ( V(s) )
+* Actor learns a stochastic policy (\pi(a|s))
+* Critic estimates the value function (V(s))
 * Enables lower variance and faster convergence in complex settings
 
 ---
@@ -73,9 +73,9 @@ To better reflect real-world supply chain dynamics, the environment includes:
 
 The learned policies are evaluated using:
 
-* **Average Profit** — measures economic performance
-* **Stockout Rate (%)** — frequency of unmet demand
-* **Fill Rate (%)** — proportion of demand satisfied
+* Average Profit — measures economic performance
+* Stockout Rate (%) — frequency of unmet demand
+* Fill Rate (%) — proportion of demand satisfied
 
 ---
 
@@ -96,7 +96,3 @@ The learned policies are evaluated using:
 * Double DQN improves stability over standard DQN
 * Actor-Critic methods handle complex environments more efficiently
 * Incorporating real-world factors (seasonality, lead time) significantly impacts policy performance
-
----
-
-
