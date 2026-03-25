@@ -16,11 +16,13 @@ The objective is to learn an optimal ordering policy that maximizes long-term pr
 
 ```
 Deep-Reinforcement-Learning-for-Inventory-Optimization/
-├── README.md                    # Project documentation and overview
-├── proposal.pdf                 # Project proposal document
-└── rlprojectnew (2).ipynb      # Main Jupyter notebook with implementation and results
+├── README.md                  # Project documentation and overview
+├── proposal.pdf               # Project proposal document
+└── rlprojectnew (2).ipynb     # Main Jupyter notebook with implementation and results
 ```
+
 ---
+
 ## 🚀 Features
 
 * Deep Q-Network (DQN)
@@ -105,7 +107,3 @@ The learned policies are evaluated using:
 * Double DQN improves stability over standard DQN
 * Actor-Critic methods handle complex environments more efficiently
 * Incorporating real-world factors (seasonality, lead time) significantly impacts policy performance
-
----
-
-```
